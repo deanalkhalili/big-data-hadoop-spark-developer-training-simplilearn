@@ -12,6 +12,9 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 import java.io.IOException;
 
+/*
+The Command to execute MapReduce Program
+ */
 public class WordCountDriver {
     public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException {
         // Step 01 : We Load all the configuration

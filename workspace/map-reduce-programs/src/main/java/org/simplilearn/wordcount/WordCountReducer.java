@@ -8,8 +8,8 @@ import java.io.IOException;
 
 public class WordCountReducer extends Reducer<Text, IntWritable,Text,IntWritable> {
     /*
-        C, [1,1,1,1,1,1]
-        Java, [1,1,1,1,1,1]
+        C, [1,1,1,1,1,1]  --> reduce()  --> C,6
+        Java, [1,1,1,1,1,1]  --> reduce() --> Java,6
      */
     @Override
     protected void reduce(Text key,
